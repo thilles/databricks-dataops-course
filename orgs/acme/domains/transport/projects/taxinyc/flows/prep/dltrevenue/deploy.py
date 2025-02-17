@@ -87,10 +87,10 @@ run_pipeline(
 
 # COMMAND ----------
 
-# import os
-# os.environ["DEPLOYMENT_ENV"] = "prod"
-# # Deploy pipelines based on deployment.yml, in dev mode
-# prod_response = autopipeline(env="prod")
+import os
+os.environ["DEPLOYMENT_ENV"] = "prod"
+# Deploy pipelines based on deployment.yml, in dev mode
+prod_response = autopipeline(env="prod")
 
 # COMMAND ----------
 
