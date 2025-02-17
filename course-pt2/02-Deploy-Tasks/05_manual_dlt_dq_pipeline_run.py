@@ -71,7 +71,7 @@
 # COMMAND ----------
 
 # MAGIC %md 
-# MAGIC _Add reason for the failure here..._
+# MAGIC Missing input data: true
 
 # COMMAND ----------
 
